@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>simple-bean-container</module>
+        <module>bean-definition-and-bean-definition-registry</module>
     </modules>
 
     <properties>
