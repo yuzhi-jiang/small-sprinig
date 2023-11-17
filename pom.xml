@@ -14,6 +14,7 @@
         <module>populate-bean-with-property-values</module>
         <module>populate-bean-with-bean-values-2</module>
         <module>resource-and-resource-loader-and-xml-file-definie-bean</module>
+        <module>bean-facotry-and-bean-processor</module>
     </modules>
 
     <properties>
