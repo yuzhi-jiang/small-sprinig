@@ -12,6 +12,7 @@ public interface BeanDefinitionReader {
     ResourceLoader getResourceLoader();
 
     void loadBeanDefinitions(String location);
+    void loadBeanDefinitions(String... location);
 
 
     void loadBeanDefinitions(Resource... resources);

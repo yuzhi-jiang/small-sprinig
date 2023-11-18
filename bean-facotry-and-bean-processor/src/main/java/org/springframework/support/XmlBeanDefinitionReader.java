@@ -48,6 +48,13 @@ public class XmlBeanDefinitionReader extends AbstractBeanDefinitionReader{
     }
 
     @Override
+    public void loadBeanDefinitions(String... location) {
+        for (String path : location) {
+            loadBeanDefinitions(path);
+        }
+    }
+
+    @Override
     public void loadBeanDefinitions(Resource... resources) {
         for (Resource resource : resources) {
             loadBeanDefinitions(resource);

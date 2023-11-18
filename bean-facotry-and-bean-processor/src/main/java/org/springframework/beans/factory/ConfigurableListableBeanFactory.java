@@ -1,4 +1,7 @@
 package org.springframework.beans.factory;
 
-public class ConfigurableListableBeanFactory {
+import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
+
+public interface ConfigurableListableBeanFactory extends ListBeanFactory, AutowireCapableBeanFactory, ConfigurableBeanFactory {
 }
